@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="icon" href="/images/LOGO YA.png">
+    <title>Ya recargas al instante</title>
+</head>
+
+<body>
+    
+    <div class="login">
+            
+    <div class="form-container">
+        <h2>Login</h2>
+        <form action="/login.ejs" method="post">
+         <div class="form-group">
+            <label> <form="name"><b>Nombre</b></label>
+            <input type="text" id="name" name="username" placeholder="Introduce tu nombre"  required autocomplete="off">
+         </div>
+         <div class="form-group">
+            <label form="password"><b>Constraseña</b></label>
+            <input type="password" id="password" name="password" placeholder="Contraseña" required>
+         </div>
+         <div class="no-account">
+            <button type="submit" class="submit-btn">Ingresar</button>
+        </form>
+            <p><b>No tienes una cuenta</b> <a href="signup"><b>Crear Cuenta</b></a></p>
+         </div>
+        
+    </div>
+</div>
+</body>
+</html>

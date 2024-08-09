@@ -1,0 +1,197 @@
+@import url(styles.css);
+
+.grid__pagina{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    padding: 0%;
+}
+
+.grid__recargas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 0%;
+    margin: 0 20px;
+    
+    
+}
+
+.title__recargas-operadores{
+    display: flex;
+    text-transform: uppercase;
+    color: var(--black);
+    font-size: 22px;
+    font-weight: 700;
+    justify-content: center;  
+    margin-top: 5px;  
+}
+
+.title__operadores-moviles{
+    display: block;
+    color: var(--black);
+    font-size: 20px;
+    font-weight: 500;
+    justify-content: center;
+}
+
+.logos__operadores{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    max-width: 600px;
+    margin: 10px;
+    padding: 5px;
+}
+
+.operador__selection img{
+    margin: 4px 7px;
+    padding: 1px;   
+    border: 2px solid var(--black);
+    max-width: 90px;
+    min-width: 90px;
+    max-height: 90px;
+    min-height: 90px;
+    border-radius: 50%;
+    cursor: pointer;
+    opacity: 0.6;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.operador__selection img:hover{
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+.form__historial{
+    float: left;
+    text-align: center;
+    width: 50%;
+}
+
+table{
+    border-collapse: collapse;
+    border: var(--black);
+    border-radius: 5px;
+    margin-left: 110px;
+    margin-top: 20px;
+}
+
+th{
+    padding: 5px;
+}
+
+td{
+    padding: 5px;
+    background-color: var(--white);
+}
+
+table thead{
+    background-color: var(--orange);
+    color: var(--white);
+
+}
+
+label{
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.grid__form{
+    margin-left: 50em;
+    margin-right: 5em;
+    padding: 5px 60px;
+    text-align: center;
+    justify-content: center;
+}
+
+.form__number{
+    color: var(--orange);
+    text-align: center;
+    font-weight: 500;
+    font-size: 19px;
+}
+
+.form__number input{
+    background-color: var(--white);
+    color: var(--black);
+    border: 1px solid rgb(202, 112, 47);
+    border-radius: 5px;
+    width: 60%;
+    text-align: center;
+    font-size: 15px;
+    height: 25px;
+    margin: 5px;
+    
+}
+
+.form__valor label{
+    text-align: center;
+    color: var(--orange);
+    font-weight: 500;
+    font-size: 18px;
+
+}
+
+.list__valor{
+    list-style: none;
+    text-align: center;
+    padding: 5px 0;
+
+}
+
+.list__valor li{
+    display: inline-block;
+    text-align: center;
+    background-color: rgb(247, 104, 22);
+    color: var(--white);
+    margin: 2px 0px;
+    padding: 6px 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.list__valor li:hover{
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+
+.form__valor input{
+    background-color: var(--white);
+    color: var(--black);
+    border: 1px solid rgb(202, 112, 47);
+    border-radius: 5px;
+    width: 40%;
+    text-align: center;
+    font-size: 15px;
+    height: 25px;
+    margin: 5px;
+}
+
+.button__recargar input{
+    background-color: var(--orange);
+    color: var(--white);
+    border: 1px solid var(--black);
+    padding: 5px;
+    border-radius: 5px;
+
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+    }

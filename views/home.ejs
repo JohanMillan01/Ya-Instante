@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+      
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/images/LOGO YA.png"> <!--Icono de la pagina web-->
+    <link rel="stylesheet" href="/styles.css"><!--Importa estilos-->
+    <link rel="stylesheet" href="/styleheader.css"><!--Importa estilos header-->
+    <link rel="stylesheet" href="/styleoperator.css">
+    <!--Importar familias de fuentes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
+    <title>Ya recargas al instante</title>
+</head>
+<body>
+    <header class="header">
+        <section class="header__info">
+            <p>Bienvenido, Realiza tus Pagos en Linea. Atencion al cliente <span class="phone-number"></span>+57 3209747373</p>
+        </section>        
+        <section class="container-navbar">
+            <nav class="navbar container">
+                <a href="/home" class="navbar__logo">
+                    <img src="/images/LOGO YA.png" alt="Logo Empresa">
+                    <span>
+                        Recargas al instante
+                    </span>
+                </a>
+                <div class="navbar__nav">
+                    <ul class="nav__list">
+                        <li class="nav__link">
+                            <a href="/home">Recargas a Operadores</a>
+                        </li>
+                        <li class="nav__link">
+                            <a href="#">Pago de Servicios</a>
+                        </li>
+                        <li class="nav__link">
+                            <a href="#">Historial de Pagos</a>
+                        </li>
+                        <li class="nav__link">
+                            <a href="#">Usuario</a>
+                        </li>
+                    </ul>
+                    <form action="" class="navbar__search">
+                        <a href="" class="search__icon">
+                            <img src="/images/Lupa.png" alt="boton de busqueda">
+                        </a>
+                    </form>
+                    <a href="#" class="button-saber-mas">¡Saber Mas!</a>
+                    <button class="navbar__tres-puntos">
+                        <img src="/images/tres-puntos.png" alt="Lista Desplegable">
+                    </button>
+                    <div class="navbar__mobile-menu">
+                        <ul class="nav__list-mobile">
+                            <li class="nav__link-mobile">
+                                <a href="/home">Recargas a Operadores</a>
+                            </li>
+                            <li class="nav__link-mobile">
+                                <a href="#">Pago de Servicios</a>
+                            </li>
+                            <li class="nav__link-mobile">
+                                <a href="#">Historial de Pagos</a>
+                            </li>
+                            <li class="nav__link-mobile">
+                                <a href="#">Usuario</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </section>
+    </header>
+    <content>
+        <section class="principal__recargas">
+            <div class="title__recargas-operadores">Recargas a Operadores</div>
+            <div class="grid__pagina">
+                <div class="grid__recargas">
+                    <div class="title__operadores-moviles">Operadores</div>
+                    <br>
+                        <ul class="logos__operadores">
+                        <li class="operador__selection">
+                            <img src="/images/claro logo.png" alt="Claro">
+                        </li>
+                        <li class="operador__selection">
+                            <img src="/images/wom logo.png" alt="Wom">
+                        </li>
+                        <li class="operador__selection">
+                            <img src="/images/tigo logo.png" alt="Tigo">
+                        </li>
+                        <li class="operador__selection">
+                            <img class="redondo" src="/images/movistar logo.png" alt="Movistar">
+                        </li>
+                        <li class="operador__selection">
+                            <img src="/images/virgin logo.png" alt="Virgin Mobile">
+                        </li>
+                        <li class="operador__selection">
+                            <img class="redondo" src="/images/flash mobile logo.png" alt="Flash Mobile">
+                        </li>
+                        <li class="operador__selection">
+                            <img src="/images/exito logo.png" alt="Exito">
+                        </li>
+                        <li class="operador__selection">
+                            <img class="redondo" src="/images/etb logo.png" alt="ETB">
+                        </li>
+                    </ul>
+                </div>
+                <div class="grid__recargas">
+                    <div class="title__operadores-moviles">Paquetes</div>
+                    <br>
+                    <ul class="logos__operadores">
+                        <li class="operador__selection">
+                            <img src="/images/claro logo.png" alt="Claro">
+                        </li>
+                        <li class="operador__selection">
+                            <img src="/images/wom logo.png" alt="Wom">
+                        </li>
+                        <li class="operador__selection">
+                            <img src="/images/tigo logo.png" alt="Tigo">
+                        </li>
+                        <li class="operador__selection">
+                            <img class="redondo" src="/images/movistar logo.png" alt="Movistar">
+                        </li>
+                        <li class="operador__selection">
+                            <img src="/images/virgin logo.png" alt="Virgin Mobile">
+                        </li>
+                        <li class="operador__selection">
+                            <img class="redondo" src="/images/flash mobile logo.png" alt="Flash Mobile">
+                        </li>
+                        <li class="operador__selection">
+                            <img src="/images/exito logo.png" alt="Exito">
+                        </li>
+                        <li class="operador__selection">
+                            <img class="redondo" src="/images/etb logo.png" alt="ETB">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="form__historial">
+                <div class="table__historial">
+                   <table border>
+                    <thead>
+                        <tr>
+                            <th colspan="5">Ultimas Recargas</th>
+                        </tr>
+                        <tr>
+                            <th>Fecha</th>
+                            <th>Numero</th>
+                            <th>Operador</th>
+                            <th>Precio</th>
+                            <th>Estado</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>18/06/24</td>
+                            <td>3209747373</td>
+                            <td>Wom</td>
+                            <td>7.500</td>
+                            <td>Operacion Exitosa</td>
+                        </tr>
+                    </tbody>
+                   </table>
+                </div>
+            </div>
+            <div class="grid__form">
+            <form method="post" id="recargas">
+                <div class="form__recargas">
+                    <div class="form__number">
+                        <label>Número de Telefono</label><br>
+                        <input type="number" placeholder="3XXXXXXXXX" autocomplete="off" maxlength="10">
+                    </div>
+                </div>
+                <div class="form__valor">
+                    <label>Valor</label>
+                    <ul class="list__valor">
+                        <li data-recarga="1000"><b>1.000</b></li>
+                        <li data-recarga="2000"><b>2.000</b></li>
+                        <li data-recarga="3000"><b>3.000</b></li>
+                        <li data-recarga="5000"><b>5.000</b></li>
+                        <li data-recarga="7000"><b>7.000</b></li>
+                        <li data-recarga="10000"><b>10.000</b></li>
+                        <li data-recarga="20000"><b>20.000</b></li>
+                    </ul>
+                    <input type="number" placeholder="XXXXX" autocomplete="off" maxlength="6">
+                </div>
+                <div class="button__recargar">
+                    <input type="submit" value="Recargar">
+                </div>    
+            </form>
+        </div>
+        </section>
+    </content>
+</body>
+</html>
